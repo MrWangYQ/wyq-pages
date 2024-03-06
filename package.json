@@ -1,0 +1,29 @@
+{
+  "name": "wyq-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "keywords": ["wyq-pages", "wyq"],
+  "author": "wyq",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyq/wyq-pages.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
