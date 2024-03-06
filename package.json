@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "static web app workflow",
   "main": "lib/index.js",
+  "bin": "bin/wyq-pages.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "directories": {
     "lib": "lib"
@@ -19,7 +21,24 @@
     "type": "git",
     "url": "git+https://github.com/wyq/wyq-pages.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "browser-sync": "^3.0.2",
+    "del": "6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-load-plugins": "^2.0.8",
+    "gulp-sass": "^5.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.71.1"
+  },
   "devDependencies": {
     "standard": "^13.1.0"
   },
