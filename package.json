@@ -1,6 +1,6 @@
 {
   "name": "wyq-pages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "static web app workflow",
   "main": "lib/index.js",
   "bin": "bin/wyq-pages.js",
